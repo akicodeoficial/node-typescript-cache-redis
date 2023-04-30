@@ -1,0 +1,32 @@
+{
+  "name": "typescript-cache-redis",
+  "version": "1.0.0",
+  "description": "Este repositório do GitHub é dedicado a armazenamento em cache com Redis. O Redis é um banco de dados em memória que pode ser usado como um cache para acelerar o acesso a dados frequentemente acessados. Este repositório contém exemplos e documentação sobre como implementar o Redis como uma camada de cache em sua aplicação, além de outras ferramentas e recursos para ajudá-lo a otimizar o desempenho e a escalabilidade do cache com Redis. Com este repositório, você pode aprender como tirar o máximo proveito do Redis para melhorar a velocidade e a eficiência da sua aplicação.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsnd --respawn --transpile-only src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akicodeoficial/typescript-cache-redis.git"
+  },
+  "author": "Alan Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akicodeoficial/typescript-cache-redis/issues"
+  },
+  "homepage": "https://github.com/akicodeoficial/typescript-cache-redis#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "ioredis": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
